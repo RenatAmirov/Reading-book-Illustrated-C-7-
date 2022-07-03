@@ -20,7 +20,7 @@ class Program
       int first = 5, second = 6, third = 7;        // Declare three ints.
 
       MyClass mc = new MyClass();
-      mc.ListInts( first, second, third );         // Call the method.
+      mc.ListInts(first, second, third, 4, 5, 6 );         // Call the method.
 
       Console.WriteLine( $"{ first }, { second }, { third }" );
    }
